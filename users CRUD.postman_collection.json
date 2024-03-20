@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "d646448a-b4ca-4d1a-a76f-540655a4869a",
+		"name": "users CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "523423"
+	},
+	"item": [
+		{
+			"name": "Get all users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3030/api/users",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3030/api/users/ashgdfa",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"ashgdfa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update (replace) user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3030/api/users/jyfdggqjywfg",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"jyfdggqjywfg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update (merge) user",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3030/api/users/jyfdggqjywfg",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"jyfdggqjywfg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete user",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3030/api/users/jyfdggqjywfg",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						"jyfdggqjywfg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3030/api/users/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
